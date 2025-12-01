@@ -1,0 +1,53 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+@media (width <= 1000px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width <= 768px) {
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.box-1{
+    width: 25rem;
+    height: 25rem;
+    background: blue;
+}
+
+.box-2{
+    width: 25rem;
+    height: 25rem;
+    background: red;
+}
+
+.box-3{
+    width: 25rem;
+    height: 25rem;
+    background: green;
+}
+
+.box-4{
+    width: 25rem;
+    height: 25rem;
+    background: lightgreen;
+}
+
+.box-5{
+    width: 25rem;
+    height: 25rem;
+    background: brown;
+}
+
+.box-6{
+    width: 25rem;
+    height: 25rem;
+    background: yellow;
+}

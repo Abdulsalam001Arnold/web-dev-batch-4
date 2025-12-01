@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+#box-1{
+    width: 25rem;
+    height: 25rem;
+    background-color: red;
+
+    box-shadow: -3px 12px 79px 19px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 12px 79px 19px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 12px 79px 19px rgba(0,0,0,0.75);
+margin-left: 10rem;
+margin-top: 10rem;
+border: 10px solid blue;
+padding-left: 20px;
+padding-top: 34px;
+}
+
+#text{
+    font-size: 30px;
+    color: yellowgreen;
+    text-align: end;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-shadow: -23px 41px 13px rgba(0,0,0,0.6);
+    text-transform: uppercase;
+}
+
+.bitcount-grid-single-text {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+      "ELXP" 0;
+  }
+  

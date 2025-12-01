@@ -1,0 +1,88 @@
+
+#box-1{
+    width: 25rem;
+    height: 25rem;
+    background-color: red;
+    box-shadow: -3px 12px 79px 19px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 12px 79px 19px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 12px 79px 19px rgba(0,0,0,0.75);
+position: fixed;
+left: 19rem;
+}
+
+#box-2{
+    width: 20rem;
+    height: 20rem;
+    background-color: blue;
+    position: absolute;
+    top: 6rem;
+    left: 9rem;
+    z-index: 10;
+    transition: background-color 0.6s ease-in-out;
+}
+
+#box-2:hover {
+    background-color: black;
+}
+
+#box-3{
+    width: 40rem;
+    height: 40rem;
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+section{
+    background-image: url('https://foto-c.com/assets/banner-BARWlzs9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.image-container{
+    width: 100%;
+}
+
+.overlay{
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.hover-box{
+    background-color: blue;
+    width: 20rem;
+    height: 20rem;
+    transition: 0.5s all ease-in-out;
+    /* transform: scale(2.5); */
+    transform: skew(20deg);
+}
+
+/* .hover-box:hover{
+    background-color: black;
+} */
+
+@media (width <= 768px) {
+    .hover-box{
+        background-color: palevioletred;
+    }
+}
+
+/* flexbox */
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background: #5e5209;
+background: linear-gradient(358deg,rgba(94, 82, 9, 1) 0%, rgba(59, 59, 196, 1) 64%, rgba(255, 255, 255, 1) 100%);
+}
