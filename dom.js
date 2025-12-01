@@ -119,4 +119,6 @@ const fetchData = async () => {
 
 fetchData()
 
+console.log('I am adding something')
+
 
